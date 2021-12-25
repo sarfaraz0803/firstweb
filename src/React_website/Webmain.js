@@ -21,7 +21,7 @@ const Webmain = () => {
         <>
             <Navmenu />
             <Switch>
-                <Route exact path="/firstweb" component={Home} />
+                <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/service" component={Service} />
                 <Route exact path="/contact" component={Contact} />
